@@ -3,57 +3,168 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Investment Project Showcase</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
     <link rel="stylesheet" href="styles.css" />
+    <title>CompanyName A/S</title>
   </head>
   <body>
-    <header>
-      <h1>Investment Project Showcase</h1>
-    </header>
-
-    <div class="container">
-      <section class="project">
-        <h2>Project Overview</h2>
-        <p>
-          This section provides an overview of the investment project. Lorem
-          ipsum dolor sit amet, consectetur adipiscing elit.
-        </p>
-        <img
-          src="src/assets/istockphoto-499785795-612x612.jpg"
-          alt="Project Image"
-        />
-      </section>
-
-      <section class="project">
-        <h2>Project Benefits</h2>
-        <ul>
-          <li>High ROI potential</li>
-          <li>Diversification of investment portfolio</li>
-          <li>Stable long-term growth</li>
-        </ul>
-      </section>
-
-      <section class="project">
-        <h2>Project Team</h2>
-        <p>Meet the team behind the investment project:</p>
-        <ul>
-          <li>John Doe - CEO</li>
-          <li>Jane Smith - CFO</li>
-          <li>Mark Johnson - CTO</li>
-        </ul>
-      </section>
-
-      <section class="project">
-        <h2>Investment Details</h2>
-        <p>
-          For more information on how to invest, please contact us at
-          <a href="mailto:what@what.com">what@what.com</a>.
-        </p>
-      </section>
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo center">Investment Projects</a>
+          <a href="#" data-target="mobile-nav" class="sidenav-trigger"
+            ><i class="material-icons">menu</i></a
+          >
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="#company">Company</a></li>
+            <li><a href="#projects">Investment Projects</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <ul class="sidenav" id="mobile-nav">
+      <li><a href="#company">Company</a></li>
+      <li><a href="#projects">Investment Projects</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="section company" id="company">
+      <h2>Company</h2>
+      <p>
+        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+        accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
+        illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+        explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
+        odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
+        voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum
+        quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam
+        eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
+        voluptatem.
+      </p>
+    </div>
+    <div class="section" id="projects">
+      <h2>Investment Projects</h2>
+      <div class="row">
+        <!-- Example project 1 -->
+        <div class="col s12 m6">
+          <div class="card">
+            <div class="card-image">
+              <img
+                src="src/assets/istockphoto-499785795-612x612.jpg"
+                alt="Project Image 1"
+              />
+              <span class="card-title">Project 1</span>
+            </div>
+            <div class="card-content">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                blanditiis praesentium voluptatum deleniti atque corrupti quos
+                dolores et quas molestias excepturi sint occaecati cupiditate
+                non provident, similique sunt in culpa qui officia deserunt
+                mollitia animi, id est laborum et dolorum fuga. Et harum quidem
+                rerum facilis est et expedita distinctio. Nam libero tempore,
+                cum soluta nobis est eligendi optio cumque nihil impedit quo
+                minus id quod maxime placeat facere possimus, omnis voluptas
+                assumenda est, omnis dolor repellendus. Temporibus autem
+                quibusdam et aut officiis debitis aut rerum necessitatibus saepe
+                eveniet ut et voluptates repudiandae sint et molestiae non
+                recusandae. Itaque earum rerum hic tenetur a sapiente delectus,
+                ut aut reiciendis voluptatibus maiores alias consequatur aut
+                perferendis doloribus asperiores repellat.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Example project 2 -->
+        <div class="col s12 m6">
+          <div class="card">
+            <div class="card-image">
+              <img
+                src="src/assets/istockphoto-499785795-612x612.jpg"
+                alt="Project Image 2"
+              />
+              <span class="card-title">Project 2</span>
+            </div>
+            <div class="card-content">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Example project 3 -->
+        <div class="col s12 m6">
+          <div class="card">
+            <div class="card-image">
+              <img
+                src="src/assets/istockphoto-499785795-612x612.jpg"
+                alt="Project Image 3"
+              />
+              <span class="card-title">Project 3</span>
+            </div>
+            <div class="card-content">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section" id="about">
+      <h2>About</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum.
+      </p>
+    </div>
+    <div class="section" id="contact">
+      <h2>Contact</h2>
+      <form action="https://formspree.io/f/{your_form_id}" method="POST">
+        <input type="email" name="email" placeholder="Your email" required />
+        <textarea name="message" placeholder="Your message" required></textarea>
+        <button type="submit" class="btn">Send</button>
+      </form>
     </div>
 
-    <footer>
-      <p>&copy; 2024 Investment Project Showcase. All rights reserved.</p>
-    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="scripts.js"></script>
   </body>
 </html>
